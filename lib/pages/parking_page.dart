@@ -885,6 +885,9 @@ class ParkingPage extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              height: 30,
+            ),
           ],
         ),
       ),
