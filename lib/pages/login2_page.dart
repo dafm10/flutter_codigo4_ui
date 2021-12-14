@@ -33,7 +33,7 @@ class _Login2PageState extends State<Login2Page> {
                           fontWeight: FontWeight.w600,
                           height: 1.05),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 50.0,
                     ),
                     TextField(
@@ -41,7 +41,7 @@ class _Login2PageState extends State<Login2Page> {
                           color: Color(0xff72538E).withOpacity(0.6),
                           fontSize: 15.0),
                       decoration: InputDecoration(
-                        prefixIcon: Icon(
+                        prefixIcon: const Icon(
                           Icons.mail,
                           color: Color(0xff72538E),
                         ),
@@ -49,15 +49,15 @@ class _Login2PageState extends State<Login2Page> {
                         hintStyle: GoogleFonts.poppins(
                             color: Color(0xff72538E).withOpacity(0.6),
                             fontSize: 15.0),
-                        focusedBorder: UnderlineInputBorder(
+                        focusedBorder: const UnderlineInputBorder(
                           borderSide: BorderSide(color: Color(0xff72538E)),
                         ),
-                        enabledBorder: UnderlineInputBorder(
+                        enabledBorder: const UnderlineInputBorder(
                           borderSide: BorderSide(color: Color(0xff72538E)),
                         ),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 26.0,
                     ),
                     TextField(
@@ -66,7 +66,7 @@ class _Login2PageState extends State<Login2Page> {
                           color: Color(0xff72538E).withOpacity(0.6),
                           fontSize: 15.0),
                       decoration: InputDecoration(
-                        prefixIcon: Icon(
+                        prefixIcon: const Icon(
                           Icons.lock,
                           color: Color(0xff72538E),
                         ),
@@ -83,15 +83,15 @@ class _Login2PageState extends State<Login2Page> {
                         hintStyle: GoogleFonts.poppins(
                             color: Color(0xff72538E).withOpacity(0.6),
                             fontSize: 15.0),
-                        focusedBorder: UnderlineInputBorder(
+                        focusedBorder: const UnderlineInputBorder(
                           borderSide: BorderSide(color: Color(0xff72538E)),
                         ),
-                        enabledBorder: UnderlineInputBorder(
+                        enabledBorder: const UnderlineInputBorder(
                           borderSide: BorderSide(color: Color(0xff72538E)),
                         ),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 60.0,
                     ),
                     Container(
@@ -107,7 +107,7 @@ class _Login2PageState extends State<Login2Page> {
                               offset: Offset(0, 10),
                             ),
                           ],
-                          gradient: LinearGradient(
+                          gradient: const LinearGradient(
                             colors: [
                               Color(0xffee91bc),
                               Color(0xffD74286),
@@ -139,7 +139,7 @@ class _Login2PageState extends State<Login2Page> {
           top: -150,
           child: MyCircleGradient(
             radius: 200,
-            colors: [
+            colors: const [
               Color(0xffee91bc),
               Color(0xffD74286),
             ],
@@ -150,7 +150,7 @@ class _Login2PageState extends State<Login2Page> {
           left: -100,
           child: MyCircleGradient(
             radius: 140,
-            colors: [
+            colors: const [
               Color(0xffa692e8),
               Color(0xff5E4A9B),
             ],
@@ -161,7 +161,7 @@ class _Login2PageState extends State<Login2Page> {
           left: 30,
           child: MyCircleGradient(
             radius: 20,
-            colors: [
+            colors: const [
               Color(0xffee91bc),
               Color(0xffD74286),
             ],
@@ -173,7 +173,7 @@ class _Login2PageState extends State<Login2Page> {
           right: 40,
           child: MyCircleGradient(
             radius: 18.5,
-            colors: [
+            colors: const [
               Color(0xffa692e8),
               Color(0xff5E4A9B),
             ],
