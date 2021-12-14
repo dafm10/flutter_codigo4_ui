@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fultter_codigo4_ui/pages/house_page.dart';
 import 'package:fultter_codigo4_ui/pages/login1_page.dart';
 import 'package:fultter_codigo4_ui/pages/login2_page.dart';
 import 'package:fultter_codigo4_ui/pages/parking_page.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ParkingPage(),
+      home: HousePage(),
     );
   }
 }
