@@ -272,7 +272,7 @@ class SportPage extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20.0,
                   ),
                   Container(
@@ -293,7 +293,7 @@ class SportPage extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            Icon(
+                            const Icon(
                               Icons.sports_soccer_outlined,
                               size: 15.0,
                             ),
@@ -308,12 +308,12 @@ class SportPage extends StatelessWidget {
                             ),
                           ],
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 6.0,
                         ),
                         Row(
                           children: [
-                            Icon(
+                            const Icon(
                               Icons.location_on,
                               size: 15.0,
                             ),
@@ -342,7 +342,7 @@ class SportPage extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.white,
         currentIndex: 0,
-        items: [
+        items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home",),
           BottomNavigationBarItem(icon: Icon(Icons.contact_page), label: "Contact",),
         ],
